@@ -2,7 +2,7 @@
 Python debt calculator
 
 # How to use
-There are two files that need to be updated:
+There following file will need updated with your financial data before proceeding:
 
  1. data/debts
 
@@ -10,16 +10,8 @@ This is a CSV (comma separated values) file in the following format:
 
  * Name , Balance , APR , Payment
 
-Update this file with your debts (and remove the example cards), *run the program once* and capture the the values of the following fields:
+Update this file with your debts (and remove the example cards), *run the program*. 
 
- * Debt in this configuration
- * Amount paid in this configuration
+# Clearing cached data
 
- 2. data/initial
-
-This is a CSV (comma separated values) file in the following format:
-    
- * Original Total Debt , Original Amount to Payoff
-
-Fill in these fields with the values from the "Debts in this configuration" and "Amount Paid in this configuration" fields from your first run.
-    
+At first run, your expected total amount paid and total debt will be saved in data/initial. To clear this data, delete this file.
