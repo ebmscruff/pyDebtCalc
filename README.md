@@ -10,7 +10,7 @@ This is a CSV (comma separated values) file in the following format:
 
     * Name , Balance , APR , Payment
 
-Update this file with your debts (and remove the example cards) and capture the the values of the following fields:
+Update this file with your debts (and remove the example cards), *run the program once* and capture the the values of the following fields:
 
     * Debt in this configuration
     * Amount paid in this configuration
